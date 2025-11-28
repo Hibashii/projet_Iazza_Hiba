@@ -17,7 +17,9 @@ public class Compte {
     @GeneratedValue
     private Long id;
 
+    @Column(unique = true, nullable = false)
     private String numeroCompte;
+
     private double solde;
     private LocalDate dateOuverture;
 

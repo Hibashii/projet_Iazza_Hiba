@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
-public class CompteCourant extends Compte {
-
+public class CompteCourant extends Compte  {
     private double autorisationDecouvert = 1000.0;
 }
